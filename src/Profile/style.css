@@ -1,0 +1,12 @@
+.pr {
+    border-width: thick;
+    border-style: double;
+    border-color:black;
+    }
+.name{
+    color: black;
+    text-decoration-line: underline;
+}
+.profession{
+    color: rgb(187, 103, 48);
+}

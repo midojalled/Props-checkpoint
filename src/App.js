@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import ProfileC from'./Profile/ProfileC.js'
 import './App.css';
-
+const profile =[
+  {
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnTPndLSFHM9SS8t1wJYeBjfurdYsg8MVYsg&usqp=CAU",
+    fullName: "Abdelhamid Jalled" ,
+    bio: "I am studying web development because i love doing this",
+  profession: "Footballler and Gamer"  }
+]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProfileC x={profile} />
     </div>
   );
 }
